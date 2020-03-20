@@ -1,0 +1,5 @@
+$yellow : rgba(254,214,4,1);
+$purple : rgba(195,48,210,1);
+$gradient:linear-gradient(to right, $purple 0%, $yellow 100%);
+@import 'global';
+@import 'nav';
