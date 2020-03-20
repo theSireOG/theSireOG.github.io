@@ -1,6 +1,6 @@
 /* Main menu positionning */
 .main-nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -135,7 +135,9 @@
 .burger:before {
 	transform: translateY(-16px) skew(-10deg);
 }
-
+.is-open {
+  position: fixed;
+}
 /* Toggle State part */
 .is-open .burger {
 	transform: skew(5deg) translateY(-8px) rotate(-45deg);
